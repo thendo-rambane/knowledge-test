@@ -43,18 +43,21 @@ Build a RESTful API for the Memento platform using the provided [`spec.md`](spec
 
 ## Getting Started
 
-1. **Start the Database (Docker)**
+1. **Fork This Repository**
+    - Fork this repo to your own GitHub account before starting.
+
+2. **Start the Database (Docker)**
     ```bash
     ./script/init_db.sh
     ```
 
-2. **Start Your API**
+3. **Start Your API**
     - Follow your framework's instructions.
 
-3. **Access Swagger Docs**
+4. **Access Swagger Docs**
     - Visit `/docs` or `/swagger` (as per your implementation).
 
-4. **Test Endpoints**
+5. **Test Endpoints**
     - Use provided sample requests and automated tests to verify functionality.
 
 ## Submission
@@ -62,4 +65,5 @@ Build a RESTful API for the Memento platform using the provided [`spec.md`](spec
 - Ensure your API runs against the Dockerized PostgreSQL.
 - Swagger documentation must be accessible.
 - Provide clear setup and usage instructions.
-- Include endpoint testing instructions and
+- Include endpoint testing instructions and test files.
+- **After completion, send the address of your forked repository back to the challenge author
